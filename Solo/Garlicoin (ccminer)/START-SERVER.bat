@@ -1,0 +1,1 @@
+garlicoind -testnet -connect=52.89.91.13

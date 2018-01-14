@@ -1,0 +1,774 @@
+19:43:09:161	2334	args: -epool us1.ethermine.org:4444 -ewal 0xcF4677E60983d9F4f9eB63C661218656cA59c91B.loltastic -epsw x 
+19:43:09:161	2334	
+19:43:09:161	2334	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:43:09:192	2334	บ     Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v10.0      บ
+19:43:09:192	2334	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:43:09:348	2334	
+19:43:09:583	2334	ETH: 1 pool is specified
+19:43:09:583	2334	Main Ethereum pool is us1.ethermine.org:4444
+19:43:09:583	2334	DCR: 0 pool is specified
+19:43:09:958	2334	OpenCL platform: NVIDIA CUDA
+19:43:09:958	2334	AMD OpenCL platform not found 
+19:43:10:442	2334	CUDA initializing...
+
+19:43:10:458	2334	NVIDIA Cards available: 1 
+19:43:10:458	2334	CUDA Driver Version/Runtime Version: 9.1/8.0
+19:43:10:458	2334	GPU #0: GeForce GTX 1060 3GB, 3072 MB available, 9 compute units, capability: 6.1
+
+19:43:10:458	2334	Total cards: 1 
+19:43:14:537	2334	No AMD cards in the list, ADL library will not be used.
+19:43:14:646	2334	NVML version: 9.388.13
+19:43:14:990	24dc	ETH: Stratum - connecting to 'us1.ethermine.org' <149.56.26.221> port 4444
+19:43:15:052	24dc	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xcF4677E60983d9F4f9eB63C661218656cA59c91B.loltastic", "x"], "id": 2, "method": "eth_submitLogin"}
+
+19:43:15:068	2334	No pool specified for Decred! Ethereum-only mining mode is enabled
+19:43:15:068	2334	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+19:43:15:068	2334	ETH: eth-proxy stratum mode
+19:43:15:068	24dc	ETH: Stratum - Connected (us1.ethermine.org:4444)
+19:43:15:068	2334	Watchdog enabled
+19:43:15:084	2334	Remote management (READ-ONLY MODE) is enabled on port 3333
+19:43:15:084	2334	
+19:43:15:709	24dc	got 39 bytes
+19:43:15:709	24dc	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+19:43:15:709	24dc	parse packet: 38
+19:43:15:709	24dc	ETH: Authorized
+19:43:15:787	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:43:15:803	24dc	new buf size: 0
+19:43:15:834	24dc	got 248 bytes
+19:43:15:834	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x9b79263e5feb076ca3357f311c0ee392646cc642f4a14f7e959db55bebae3868","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54a"]}
+
+19:43:15:834	24dc	parse packet: 247
+19:43:15:834	24dc	ETH: job changed
+19:43:15:896	24dc	new buf size: 0
+19:43:15:974	2384	Setting DAG epoch #163...
+19:43:18:006	2384	Setting DAG epoch #163 for GPU0
+19:43:18:006	2384	Create GPU buffer for GPU0
+19:43:25:914	24dc	ETH: checking pool connection...
+19:43:25:914	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:43:25:976	24dc	got 248 bytes
+19:43:25:976	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x9b79263e5feb076ca3357f311c0ee392646cc642f4a14f7e959db55bebae3868","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54a"]}
+
+19:43:25:976	24dc	parse packet: 247
+19:43:25:976	24dc	ETH: job is the same
+19:43:25:976	24dc	new buf size: 0
+19:43:26:664	2384	GPU0 DAG creation time - 8568 ms
+19:43:26:664	2384	Setting DAG epoch #163 for GPU0 done
+19:43:35:915	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x158acfb", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:43:35:931	24dc	ETH: checking pool connection...
+19:43:35:931	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:43:35:946	24dc	got 39 bytes
+19:43:35:946	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:43:35:946	24dc	parse packet: 38
+19:43:35:946	24dc	new buf size: 0
+19:43:35:977	24dc	got 248 bytes
+19:43:35:977	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x9b79263e5feb076ca3357f311c0ee392646cc642f4a14f7e959db55bebae3868","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54a"]}
+
+19:43:36:040	24dc	parse packet: 247
+19:43:36:040	24dc	ETH: job is the same
+19:43:36:040	24dc	new buf size: 0
+19:43:42:432	1a24	GPU0 t=47C fan=48%
+19:43:42:432	1a24	em hbt: 0, fm hbt: 94, 
+19:43:42:432	1a24	watchdog - thread 0 (gpu0), hb time 203
+19:43:42:432	1a24	watchdog - thread 1 (gpu0), hb time 94
+19:43:43:604	24dc	got 248 bytes
+19:43:43:604	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xade0091bfa7e57c2de7908a2db6edbcdd342766f72d763b93c690f59faa16f91","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54b"]}
+
+19:43:43:604	24dc	parse packet: 247
+19:43:43:604	24dc	ETH: job changed
+19:43:43:604	24dc	new buf size: 0
+19:43:43:619	24dc	ETH: 01/13/18-19:43:43 - New job from us1.ethermine.org:4444
+19:43:43:619	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:43:43:619	24dc	ETH - Total Speed: 22.493 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:43:43:619	24dc	ETH: GPU0 22.493 Mh/s
+19:43:45:948	24dc	ETH: checking pool connection...
+19:43:45:948	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:43:45:995	24dc	got 248 bytes
+19:43:45:995	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xade0091bfa7e57c2de7908a2db6edbcdd342766f72d763b93c690f59faa16f91","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54b"]}
+
+19:43:45:995	24dc	parse packet: 247
+19:43:45:995	24dc	ETH: job is the same
+19:43:45:995	24dc	new buf size: 0
+19:43:49:339	24dc	got 248 bytes
+19:43:49:339	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x5a10da23f6af9e7c1ee72703174499e0beedbc9760b400797b9e3f70ea146c3d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54c"]}
+
+19:43:49:339	24dc	parse packet: 247
+19:43:49:339	24dc	ETH: job changed
+19:43:49:339	24dc	new buf size: 0
+19:43:49:339	24dc	ETH: 01/13/18-19:43:49 - New job from us1.ethermine.org:4444
+19:43:49:354	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:43:49:354	24dc	ETH - Total Speed: 22.511 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:43:49:354	24dc	ETH: GPU0 22.511 Mh/s
+19:43:55:935	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x159c21a", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:43:55:967	24dc	ETH: checking pool connection...
+19:43:55:967	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:43:55:982	24dc	got 39 bytes
+19:43:55:982	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:43:55:982	24dc	parse packet: 38
+19:43:55:982	24dc	new buf size: 0
+19:43:56:014	24dc	got 248 bytes
+19:43:56:014	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x5a10da23f6af9e7c1ee72703174499e0beedbc9760b400797b9e3f70ea146c3d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54c"]}
+
+19:43:56:014	24dc	parse packet: 247
+19:43:56:014	24dc	ETH: job is the same
+19:43:56:014	24dc	new buf size: 0
+19:44:05:974	24dc	ETH: checking pool connection...
+19:44:05:993	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:44:06:089	24dc	got 248 bytes
+19:44:06:093	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x5a10da23f6af9e7c1ee72703174499e0beedbc9760b400797b9e3f70ea146c3d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54c"]}
+
+19:44:06:097	24dc	parse packet: 247
+19:44:06:101	24dc	ETH: job is the same
+19:44:06:105	24dc	new buf size: 0
+19:44:14:795	1a24	GPU0 t=50C fan=49%
+19:44:14:795	1a24	em hbt: 0, fm hbt: 16, 
+19:44:14:795	1a24	watchdog - thread 0 (gpu0), hb time 109
+19:44:14:795	1a24	watchdog - thread 1 (gpu0), hb time 16
+19:44:15:951	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1575828", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:44:15:998	24dc	got 39 bytes
+19:44:15:998	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:44:15:998	24dc	parse packet: 38
+19:44:15:998	24dc	new buf size: 0
+19:44:16:014	24dc	ETH: checking pool connection...
+19:44:16:014	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:44:16:060	24dc	got 248 bytes
+19:44:16:060	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x5a10da23f6af9e7c1ee72703174499e0beedbc9760b400797b9e3f70ea146c3d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54c"]}
+
+19:44:16:060	24dc	parse packet: 247
+19:44:16:060	24dc	ETH: job is the same
+19:44:16:060	24dc	new buf size: 0
+19:44:18:922	24dc	got 248 bytes
+19:44:18:922	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xfe92a5c9de080bbd41d7280399d1069d152fbfc1291f811d9273e57c8c760d32","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54d"]}
+
+19:44:18:922	24dc	parse packet: 247
+19:44:18:922	24dc	ETH: job changed
+19:44:18:922	24dc	new buf size: 0
+19:44:18:938	24dc	ETH: 01/13/18-19:44:18 - New job from us1.ethermine.org:4444
+19:44:18:938	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:44:18:938	24dc	ETH - Total Speed: 22.672 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+19:44:18:938	24dc	ETH: GPU0 22.672 Mh/s
+19:44:26:033	24dc	ETH: checking pool connection...
+19:44:26:033	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:44:26:189	24dc	got 248 bytes
+19:44:26:189	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x98de0b390776f2d4222e99fe4802d506cac9ea02ff4c123e1b4ec970480cde0f","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54d"]}
+
+19:44:26:189	24dc	parse packet: 247
+19:44:26:189	24dc	ETH: job changed
+19:44:26:189	24dc	new buf size: 0
+19:44:26:205	24dc	ETH: 01/13/18-19:44:26 - New job from us1.ethermine.org:4444
+19:44:26:205	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:44:26:205	24dc	ETH - Total Speed: 22.684 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+19:44:26:205	24dc	ETH: GPU0 22.684 Mh/s
+19:44:26:283	24dc	got 248 bytes
+19:44:26:283	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x98de0b390776f2d4222e99fe4802d506cac9ea02ff4c123e1b4ec970480cde0f","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54d"]}
+
+19:44:26:283	24dc	parse packet: 247
+19:44:26:283	24dc	ETH: job is the same
+19:44:26:283	24dc	new buf size: 0
+19:44:35:958	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x14bec33", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:44:35:990	24dc	got 39 bytes
+19:44:35:995	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:44:35:998	24dc	parse packet: 38
+19:44:35:999	24dc	new buf size: 0
+19:44:36:037	24dc	ETH: checking pool connection...
+19:44:36:042	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:44:36:074	24dc	got 248 bytes
+19:44:36:078	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x98de0b390776f2d4222e99fe4802d506cac9ea02ff4c123e1b4ec970480cde0f","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54d"]}
+
+19:44:36:082	24dc	parse packet: 247
+19:44:36:086	24dc	ETH: job is the same
+19:44:36:090	24dc	new buf size: 0
+19:44:44:217	24dc	got 248 bytes
+19:44:44:217	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x9b2c5c6f73f590ba8a057613d29018638433be5afee2ab8e3355bac9fd2cb04d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54e"]}
+
+19:44:44:217	24dc	parse packet: 247
+19:44:44:217	24dc	ETH: job changed
+19:44:44:232	24dc	new buf size: 0
+19:44:44:232	24dc	ETH: 01/13/18-19:44:44 - New job from us1.ethermine.org:4444
+19:44:44:232	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:44:44:232	24dc	ETH - Total Speed: 22.666 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+19:44:44:248	24dc	ETH: GPU0 22.666 Mh/s
+19:44:46:061	24dc	ETH: checking pool connection...
+19:44:46:061	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:44:46:108	24dc	got 248 bytes
+19:44:46:108	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x9b2c5c6f73f590ba8a057613d29018638433be5afee2ab8e3355bac9fd2cb04d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54e"]}
+
+19:44:46:108	24dc	parse packet: 247
+19:44:46:108	24dc	ETH: job is the same
+19:44:46:108	24dc	new buf size: 0
+19:44:46:952	1a24	GPU0 t=51C fan=51%
+19:44:46:952	1a24	em hbt: 0, fm hbt: 31, 
+19:44:46:952	1a24	watchdog - thread 0 (gpu0), hb time 172
+19:44:46:952	1a24	watchdog - thread 1 (gpu0), hb time 62
+19:44:48:405	24dc	got 248 bytes
+19:44:48:405	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xadc6b73514f2f0f750dcc9e6c47ca10f21aa41f26a90a6fb0c2adc6b5cb043fd","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad54f"]}
+
+19:44:48:405	24dc	parse packet: 247
+19:44:48:405	24dc	ETH: job changed
+19:44:48:405	24dc	new buf size: 0
+19:44:48:420	24dc	ETH: 01/13/18-19:44:48 - New job from us1.ethermine.org:4444
+19:44:48:420	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:44:48:420	24dc	ETH - Total Speed: 22.660 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+19:44:48:420	24dc	ETH: GPU0 22.660 Mh/s
+19:44:51:140	24dc	got 248 bytes
+19:44:51:140	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x9361ece504570128bdd559b001b1a9e59e3da2c8d8307d37099776a5028ca2c1","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad550"]}
+
+19:44:51:140	24dc	parse packet: 247
+19:44:51:140	24dc	ETH: job changed
+19:44:51:140	24dc	new buf size: 0
+19:44:51:155	24dc	ETH: 01/13/18-19:44:51 - New job from us1.ethermine.org:4444
+19:44:51:155	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:44:51:155	24dc	ETH - Total Speed: 22.659 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+19:44:51:171	24dc	ETH: GPU0 22.659 Mh/s
+19:44:55:984	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x15a0034", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:44:56:015	24dc	got 39 bytes
+19:44:56:015	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:44:56:015	24dc	parse packet: 38
+19:44:56:015	24dc	new buf size: 0
+19:44:56:078	24dc	ETH: checking pool connection...
+19:44:56:078	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:44:56:125	24dc	got 248 bytes
+19:44:56:125	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x9361ece504570128bdd559b001b1a9e59e3da2c8d8307d37099776a5028ca2c1","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad550"]}
+
+19:44:56:125	24dc	parse packet: 247
+19:44:56:125	24dc	ETH: job is the same
+19:44:56:125	24dc	new buf size: 0
+19:45:01:141	24dc	got 248 bytes
+19:45:01:141	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x5b0f67564872fc0da5236aa216596aa416779618bdd3207333b1fb4382ca8175","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad551"]}
+
+19:45:01:141	24dc	parse packet: 247
+19:45:01:141	24dc	ETH: job changed
+19:45:01:141	24dc	new buf size: 0
+19:45:01:157	24dc	ETH: 01/13/18-19:45:01 - New job from us1.ethermine.org:4444
+19:45:01:157	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:45:01:157	24dc	ETH - Total Speed: 22.661 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+19:45:01:157	24dc	ETH: GPU0 22.661 Mh/s
+19:45:06:095	24dc	ETH: checking pool connection...
+19:45:06:095	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:45:06:173	24dc	got 248 bytes
+19:45:06:173	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x5b0f67564872fc0da5236aa216596aa416779618bdd3207333b1fb4382ca8175","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad551"]}
+
+19:45:06:173	24dc	parse packet: 247
+19:45:06:173	24dc	ETH: job is the same
+19:45:06:173	24dc	new buf size: 0
+19:45:16:003	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x159d9e9", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:45:16:034	24dc	got 39 bytes
+19:45:16:034	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:45:16:034	24dc	parse packet: 38
+19:45:16:034	24dc	new buf size: 0
+19:45:16:112	24dc	ETH: checking pool connection...
+19:45:16:112	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:45:16:425	24dc	got 248 bytes
+19:45:16:425	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x5b0f67564872fc0da5236aa216596aa416779618bdd3207333b1fb4382ca8175","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad551"]}
+
+19:45:16:425	24dc	parse packet: 247
+19:45:16:425	24dc	ETH: job is the same
+19:45:16:425	24dc	new buf size: 0
+19:45:19:800	1a24	GPU0 t=52C fan=52%
+19:45:19:800	1a24	em hbt: 0, fm hbt: 62, 
+19:45:19:800	1a24	watchdog - thread 0 (gpu0), hb time 31
+19:45:19:800	1a24	watchdog - thread 1 (gpu0), hb time 125
+19:45:26:129	24dc	ETH: checking pool connection...
+19:45:26:129	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:45:26:176	24dc	got 248 bytes
+19:45:26:176	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x5b0f67564872fc0da5236aa216596aa416779618bdd3207333b1fb4382ca8175","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad551"]}
+
+19:45:26:176	24dc	parse packet: 247
+19:45:26:176	24dc	ETH: job is the same
+19:45:26:176	24dc	new buf size: 0
+19:45:29:755	24dc	got 248 bytes
+19:45:29:755	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x50e6b1f41dbdaac08498b808791e9397b02a077893d25bfb175fb034b9229666","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad552"]}
+
+19:45:29:755	24dc	parse packet: 247
+19:45:29:755	24dc	ETH: job changed
+19:45:29:755	24dc	new buf size: 0
+19:45:29:755	24dc	ETH: 01/13/18-19:45:29 - New job from us1.ethermine.org:4444
+19:45:29:771	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:45:29:771	24dc	ETH - Total Speed: 22.719 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+19:45:29:771	24dc	ETH: GPU0 22.719 Mh/s
+19:45:35:552	24dc	got 248 bytes
+19:45:35:552	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x7fd9ab2c04210313e66a190899a613606ddcc7f2ae4a647bcb0849acde114cf3","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad553"]}
+
+19:45:35:552	24dc	parse packet: 247
+19:45:35:552	24dc	ETH: job changed
+19:45:35:568	24dc	new buf size: 0
+19:45:35:568	24dc	ETH: 01/13/18-19:45:35 - New job from us1.ethermine.org:4444
+19:45:35:568	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:45:35:568	24dc	ETH - Total Speed: 22.330 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+19:45:35:584	24dc	ETH: GPU0 22.330 Mh/s
+19:45:36:006	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x14f2c76", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:45:36:053	24dc	got 39 bytes
+19:45:36:053	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:45:36:053	24dc	parse packet: 38
+19:45:36:053	24dc	new buf size: 0
+19:45:36:131	24dc	ETH: checking pool connection...
+19:45:36:131	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:45:36:178	24dc	got 248 bytes
+19:45:36:178	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x7fd9ab2c04210313e66a190899a613606ddcc7f2ae4a647bcb0849acde114cf3","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad553"]}
+
+19:45:36:178	24dc	parse packet: 247
+19:45:36:178	24dc	ETH: job is the same
+19:45:36:178	24dc	new buf size: 0
+19:45:37:068	24dc	got 248 bytes
+19:45:37:068	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x51e6637eb5f7993f0a344e23076b89e4c90b55af45a87dc3d5e1b6b65fa6ea6e","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad554"]}
+
+19:45:37:068	24dc	parse packet: 247
+19:45:37:068	24dc	ETH: job changed
+19:45:37:068	24dc	new buf size: 0
+19:45:37:084	24dc	ETH: 01/13/18-19:45:37 - New job from us1.ethermine.org:4444
+19:45:37:084	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:45:37:084	24dc	ETH - Total Speed: 22.688 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+19:45:37:084	24dc	ETH: GPU0 22.688 Mh/s
+19:45:46:148	24dc	ETH: checking pool connection...
+19:45:46:148	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:45:46:194	24dc	got 248 bytes
+19:45:46:194	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x51e6637eb5f7993f0a344e23076b89e4c90b55af45a87dc3d5e1b6b65fa6ea6e","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad554"]}
+
+19:45:46:194	24dc	parse packet: 247
+19:45:46:194	24dc	ETH: job is the same
+19:45:46:194	24dc	new buf size: 0
+19:45:48:601	24dc	got 248 bytes
+19:45:48:601	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x81431674125a7b52513f3bcbd879344eec0410684f255d8eafd41987658d3c5c","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad555"]}
+
+19:45:48:601	24dc	parse packet: 247
+19:45:48:601	24dc	ETH: job changed
+19:45:48:601	24dc	new buf size: 0
+19:45:48:616	24dc	ETH: 01/13/18-19:45:48 - New job from us1.ethermine.org:4444
+19:45:48:616	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:45:48:616	24dc	ETH - Total Speed: 22.675 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+19:45:48:632	24dc	ETH: GPU0 22.675 Mh/s
+19:45:52:633	1a24	GPU0 t=52C fan=52%
+19:45:52:633	1a24	em hbt: 0, fm hbt: 78, 
+19:45:52:633	1a24	watchdog - thread 0 (gpu0), hb time 31
+19:45:52:633	1a24	watchdog - thread 1 (gpu0), hb time 141
+19:45:54:414	24dc	got 248 bytes
+19:45:54:414	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xdae7c9c593566c978c78acf680911dcfaa615c51cad9280ee49ea6e2f949f969","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad556"]}
+
+19:45:54:414	24dc	parse packet: 247
+19:45:54:414	24dc	ETH: job changed
+19:45:54:430	24dc	new buf size: 0
+19:45:54:430	24dc	ETH: 01/13/18-19:45:54 - New job from us1.ethermine.org:4444
+19:45:54:430	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:45:54:430	24dc	ETH - Total Speed: 22.560 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+19:45:54:446	24dc	ETH: GPU0 22.560 Mh/s
+19:45:56:024	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x15793b7", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:45:56:071	24dc	got 39 bytes
+19:45:56:071	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:45:56:071	24dc	parse packet: 38
+19:45:56:086	24dc	new buf size: 0
+19:45:56:164	24dc	ETH: checking pool connection...
+19:45:56:164	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:45:56:211	24dc	got 248 bytes
+19:45:56:211	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xdae7c9c593566c978c78acf680911dcfaa615c51cad9280ee49ea6e2f949f969","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad556"]}
+
+19:45:56:211	24dc	parse packet: 247
+19:45:56:211	24dc	ETH: job is the same
+19:45:56:211	24dc	new buf size: 0
+19:46:06:184	24dc	ETH: checking pool connection...
+19:46:06:184	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:46:06:231	24dc	got 248 bytes
+19:46:06:231	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xdae7c9c593566c978c78acf680911dcfaa615c51cad9280ee49ea6e2f949f969","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad556"]}
+
+19:46:06:231	24dc	parse packet: 247
+19:46:06:231	24dc	ETH: job is the same
+19:46:06:231	24dc	new buf size: 0
+19:46:16:045	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1599877", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:46:16:092	24dc	got 39 bytes
+19:46:16:092	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:46:16:092	24dc	parse packet: 38
+19:46:16:092	24dc	new buf size: 0
+19:46:16:202	24dc	ETH: checking pool connection...
+19:46:16:202	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:46:16:514	24dc	got 248 bytes
+19:46:16:514	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xdae7c9c593566c978c78acf680911dcfaa615c51cad9280ee49ea6e2f949f969","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad556"]}
+
+19:46:16:514	24dc	parse packet: 247
+19:46:16:514	24dc	ETH: job is the same
+19:46:16:514	24dc	new buf size: 0
+19:46:25:469	1a24	GPU0 t=53C fan=53%
+19:46:25:469	1a24	em hbt: 0, fm hbt: 94, 
+19:46:25:469	1a24	watchdog - thread 0 (gpu0), hb time 16
+19:46:25:469	1a24	watchdog - thread 1 (gpu0), hb time 109
+19:46:26:219	24dc	ETH: checking pool connection...
+19:46:26:219	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:46:26:266	24dc	got 248 bytes
+19:46:26:266	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xdae7c9c593566c978c78acf680911dcfaa615c51cad9280ee49ea6e2f949f969","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad556"]}
+
+19:46:26:266	24dc	parse packet: 247
+19:46:26:266	24dc	ETH: job is the same
+19:46:26:282	24dc	new buf size: 0
+19:46:29:517	24dc	got 248 bytes
+19:46:29:517	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x9cdc11627fca7e63424eebe7e822ca6abe2cc8e3a47e474f8ef3eeb4ed75d983","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad557"]}
+
+19:46:29:517	24dc	parse packet: 247
+19:46:29:517	24dc	ETH: job changed
+19:46:29:532	24dc	new buf size: 0
+19:46:29:532	24dc	ETH: 01/13/18-19:46:29 - New job from us1.ethermine.org:4444
+19:46:29:532	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:29:548	24dc	ETH - Total Speed: 25.096 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:29:548	24dc	ETH: GPU0 25.096 Mh/s
+19:46:30:939	24dc	got 248 bytes
+19:46:30:939	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xf55ec1cabed0b3fa5c5fd2549b8b649b927dbc5f544f59a77f754ff15dbc011e","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad558"]}
+
+19:46:30:939	24dc	parse packet: 247
+19:46:30:939	24dc	ETH: job changed
+19:46:30:954	24dc	new buf size: 0
+19:46:30:954	24dc	ETH: 01/13/18-19:46:30 - New job from us1.ethermine.org:4444
+19:46:30:954	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:30:954	24dc	ETH - Total Speed: 25.499 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:30:970	24dc	ETH: GPU0 25.499 Mh/s
+19:46:32:095	24dc	got 248 bytes
+19:46:32:095	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xe5d72401b6349c8a241c0f4cc15bbde11bddf388c29fbcc26d8f350a0461ec1a","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad558"]}
+
+19:46:32:095	24dc	parse packet: 247
+19:46:32:095	24dc	ETH: job changed
+19:46:32:111	24dc	new buf size: 0
+19:46:32:111	24dc	ETH: 01/13/18-19:46:32 - New job from us1.ethermine.org:4444
+19:46:32:111	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:32:111	24dc	ETH - Total Speed: 24.389 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:32:126	24dc	ETH: GPU0 24.389 Mh/s
+19:46:33:189	24dc	got 248 bytes
+19:46:33:189	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x41c6097cc2953275d91bf4a46a60e3819f732e6ffb988e2d7584a211b837b8a4","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad558"]}
+
+19:46:33:189	24dc	parse packet: 247
+19:46:33:189	24dc	ETH: job changed
+19:46:33:205	24dc	new buf size: 0
+19:46:33:205	24dc	ETH: 01/13/18-19:46:33 - New job from us1.ethermine.org:4444
+19:46:33:205	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:33:205	24dc	ETH - Total Speed: 25.217 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:33:221	24dc	ETH: GPU0 25.217 Mh/s
+19:46:34:190	24dc	got 248 bytes
+19:46:34:190	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x13dcce62e6593a072243289e31cc8d62cee3e1dcea17c0fb9b4826097395f38d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad558"]}
+
+19:46:34:190	24dc	parse packet: 247
+19:46:34:190	24dc	ETH: job changed
+19:46:34:205	24dc	new buf size: 0
+19:46:34:205	24dc	ETH: 01/13/18-19:46:34 - New job from us1.ethermine.org:4444
+19:46:34:205	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:34:205	24dc	ETH - Total Speed: 25.533 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:34:221	24dc	ETH: GPU0 25.533 Mh/s
+19:46:36:065	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x183be36", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:46:36:112	24dc	got 39 bytes
+19:46:36:112	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:46:36:112	24dc	parse packet: 38
+19:46:36:112	24dc	new buf size: 0
+19:46:36:237	24dc	ETH: checking pool connection...
+19:46:36:237	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:46:36:315	24dc	got 248 bytes
+19:46:36:315	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x13dcce62e6593a072243289e31cc8d62cee3e1dcea17c0fb9b4826097395f38d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad558"]}
+
+19:46:36:315	24dc	parse packet: 247
+19:46:36:315	24dc	ETH: job is the same
+19:46:36:330	24dc	new buf size: 0
+19:46:45:969	24dc	got 248 bytes
+19:46:45:969	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xfb25732b502d95bac744a26d177e4ddc403ab146a0402f8a489ff0a2691f9c47","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad559"]}
+
+19:46:45:969	24dc	parse packet: 247
+19:46:45:969	24dc	ETH: job changed
+19:46:45:984	24dc	new buf size: 0
+19:46:45:984	24dc	ETH: 01/13/18-19:46:45 - New job from us1.ethermine.org:4444
+19:46:45:984	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:45:984	24dc	ETH - Total Speed: 25.459 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:45:984	24dc	ETH: GPU0 25.459 Mh/s
+19:46:46:250	24dc	ETH: checking pool connection...
+19:46:46:250	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:46:46:344	24dc	got 248 bytes
+19:46:46:344	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xfb25732b502d95bac744a26d177e4ddc403ab146a0402f8a489ff0a2691f9c47","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad559"]}
+
+19:46:46:344	24dc	parse packet: 247
+19:46:46:344	24dc	ETH: job is the same
+19:46:46:344	24dc	new buf size: 0
+19:46:47:953	24dc	got 248 bytes
+19:46:47:953	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x1271800313486a244c00db5df6ca974756a3bb3149b766d6e9d784564a7980e9","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad559"]}
+
+19:46:47:953	24dc	parse packet: 247
+19:46:47:953	24dc	ETH: job changed
+19:46:47:953	24dc	new buf size: 0
+19:46:47:969	24dc	ETH: 01/13/18-19:46:47 - New job from us1.ethermine.org:4444
+19:46:47:969	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:47:969	24dc	ETH - Total Speed: 25.439 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:47:969	24dc	ETH: GPU0 25.439 Mh/s
+19:46:54:111	24dc	got 248 bytes
+19:46:54:111	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xbf25faff69103234cf02f62c25b922ebd2e027b419295cc4544bc267ec13ae0d","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad559"]}
+
+19:46:54:111	24dc	parse packet: 247
+19:46:54:111	24dc	ETH: job changed
+19:46:54:126	24dc	new buf size: 0
+19:46:54:126	24dc	ETH: 01/13/18-19:46:54 - New job from us1.ethermine.org:4444
+19:46:54:126	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:54:126	24dc	ETH - Total Speed: 25.481 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:54:142	24dc	ETH: GPU0 25.481 Mh/s
+19:46:56:079	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1840e75", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:46:56:267	24dc	ETH: checking pool connection...
+19:46:56:267	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:46:56:408	24dc	got 287 bytes
+19:46:56:408	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+{"id":3,"jsonrpc":"2.0","result":["0x98ec89895c4fec2310edd476f86279b3976111d897ba6cad6d4f4f253be61d84","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55a"]}
+
+19:46:56:408	24dc	parse packet: 38
+19:46:56:408	24dc	remove first packet 248
+19:46:56:423	24dc	new buf size: 248
+19:46:56:423	24dc	parse packet: 247
+19:46:56:423	24dc	ETH: job changed
+19:46:56:423	24dc	new buf size: 0
+19:46:56:439	24dc	ETH: 01/13/18-19:46:56 - New job from us1.ethermine.org:4444
+19:46:56:439	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:46:56:439	24dc	ETH - Total Speed: 24.982 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+19:46:56:454	24dc	ETH: GPU0 24.982 Mh/s
+19:46:58:126	24dc	got 248 bytes
+19:46:58:126	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x98ec89895c4fec2310edd476f86279b3976111d897ba6cad6d4f4f253be61d84","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55a"]}
+
+19:46:58:126	24dc	parse packet: 247
+19:46:58:126	24dc	ETH: job is the same
+19:46:58:126	24dc	new buf size: 0
+19:46:58:298	1a24	GPU0 t=54C fan=54%
+19:46:58:298	1a24	em hbt: 0, fm hbt: 0, 
+19:46:58:298	1a24	watchdog - thread 0 (gpu0), hb time 31
+19:46:58:298	1a24	watchdog - thread 1 (gpu0), hb time 125
+19:46:58:830	24dc	got 248 bytes
+19:46:58:830	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x98ec89895c4fec2310edd476f86279b3976111d897ba6cad6d4f4f253be61d84","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55a"]}
+
+19:46:58:830	24dc	parse packet: 247
+19:46:58:830	24dc	ETH: job is the same
+19:46:58:830	24dc	new buf size: 0
+19:47:06:284	24dc	ETH: checking pool connection...
+19:47:06:284	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:47:06:331	24dc	got 248 bytes
+19:47:06:331	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x98ec89895c4fec2310edd476f86279b3976111d897ba6cad6d4f4f253be61d84","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55a"]}
+
+19:47:06:331	24dc	parse packet: 247
+19:47:06:331	24dc	ETH: job is the same
+19:47:06:331	24dc	new buf size: 0
+19:47:15:942	24dc	got 248 bytes
+19:47:15:942	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x778103ba6c67c15d23052838b954b703e1e8b94da4d4559c597bdb9ab1257161","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55b"]}
+
+19:47:15:942	24dc	parse packet: 247
+19:47:15:942	24dc	ETH: job changed
+19:47:15:958	24dc	new buf size: 0
+19:47:15:958	24dc	ETH: 01/13/18-19:47:15 - New job from us1.ethermine.org:4444
+19:47:15:958	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:47:15:958	24dc	ETH - Total Speed: 25.222 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+19:47:15:958	24dc	ETH: GPU0 25.222 Mh/s
+19:47:16:098	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x180cdf3", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:47:16:286	24dc	ETH: checking pool connection...
+19:47:16:286	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:47:16:301	24dc	got 39 bytes
+19:47:16:301	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:47:16:301	24dc	parse packet: 38
+19:47:16:301	24dc	new buf size: 0
+19:47:16:333	24dc	got 248 bytes
+19:47:16:333	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x778103ba6c67c15d23052838b954b703e1e8b94da4d4559c597bdb9ab1257161","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55b"]}
+
+19:47:16:333	24dc	parse packet: 247
+19:47:16:333	24dc	ETH: job is the same
+19:47:16:348	24dc	new buf size: 0
+19:47:26:303	24dc	ETH: checking pool connection...
+19:47:26:303	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:47:26:349	24dc	got 248 bytes
+19:47:26:349	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x778103ba6c67c15d23052838b954b703e1e8b94da4d4559c597bdb9ab1257161","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55b"]}
+
+19:47:26:349	24dc	parse packet: 247
+19:47:26:349	24dc	ETH: job is the same
+19:47:26:365	24dc	new buf size: 0
+19:47:31:131	1a24	GPU0 t=54C fan=54%
+19:47:31:131	1a24	em hbt: 0, fm hbt: 16, 
+19:47:31:131	1a24	watchdog - thread 0 (gpu0), hb time 47
+19:47:31:131	1a24	watchdog - thread 1 (gpu0), hb time 141
+19:47:36:101	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x182b296", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:47:36:148	24dc	got 39 bytes
+19:47:36:148	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:47:36:148	24dc	parse packet: 38
+19:47:36:148	24dc	new buf size: 0
+19:47:36:320	24dc	ETH: checking pool connection...
+19:47:36:320	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:47:36:367	24dc	got 248 bytes
+19:47:36:367	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x778103ba6c67c15d23052838b954b703e1e8b94da4d4559c597bdb9ab1257161","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55b"]}
+
+19:47:36:367	24dc	parse packet: 247
+19:47:36:367	24dc	ETH: job is the same
+19:47:36:367	24dc	new buf size: 0
+19:47:45:712	24dc	got 248 bytes
+19:47:45:712	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xa3b35cef472c55027cc591d3e0bcd240cd60bb603134a08cdcd02aa78b2db201","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55c"]}
+
+19:47:45:712	24dc	parse packet: 247
+19:47:45:712	24dc	ETH: job changed
+19:47:45:712	24dc	new buf size: 0
+19:47:45:727	24dc	ETH: 01/13/18-19:47:45 - New job from us1.ethermine.org:4444
+19:47:45:727	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:47:45:727	24dc	ETH - Total Speed: 25.430 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+19:47:45:727	24dc	ETH: GPU0 25.430 Mh/s
+19:47:46:337	24dc	ETH: checking pool connection...
+19:47:46:337	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:47:46:384	24dc	got 248 bytes
+19:47:46:384	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xa3b35cef472c55027cc591d3e0bcd240cd60bb603134a08cdcd02aa78b2db201","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55c"]}
+
+19:47:46:384	24dc	parse packet: 247
+19:47:46:384	24dc	ETH: job is the same
+19:47:46:384	24dc	new buf size: 0
+19:47:49:083	24dc	got 248 bytes
+19:47:49:083	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xff080649d0906f92cab518b809a72da6984745cac2563d11675dac8759f03765","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55d"]}
+
+19:47:49:083	24dc	parse packet: 247
+19:47:49:083	24dc	ETH: job changed
+19:47:49:099	24dc	new buf size: 0
+19:47:49:099	24dc	ETH: 01/13/18-19:47:49 - New job from us1.ethermine.org:4444
+19:47:49:099	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:47:49:099	24dc	ETH - Total Speed: 24.986 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+19:47:49:115	24dc	ETH: GPU0 24.986 Mh/s
+19:47:50:662	24dc	got 248 bytes
+19:47:50:662	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xab89334ea4e45aac62438af6a97181d9656f61cf151b57e045b1f88c50fe9d39","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55d"]}
+
+19:47:50:662	24dc	parse packet: 247
+19:47:50:662	24dc	ETH: job changed
+19:47:50:662	24dc	new buf size: 0
+19:47:50:677	24dc	ETH: 01/13/18-19:47:50 - New job from us1.ethermine.org:4444
+19:47:50:677	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:47:50:677	24dc	ETH - Total Speed: 24.790 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+19:47:50:677	24dc	ETH: GPU0 24.790 Mh/s
+19:47:56:116	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x182de34", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:47:56:163	24dc	got 39 bytes
+19:47:56:163	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:47:56:163	24dc	parse packet: 38
+19:47:56:163	24dc	new buf size: 0
+19:47:56:350	24dc	ETH: checking pool connection...
+19:47:56:350	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:47:56:397	24dc	got 248 bytes
+19:47:56:397	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xab89334ea4e45aac62438af6a97181d9656f61cf151b57e045b1f88c50fe9d39","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55d"]}
+
+19:47:56:397	24dc	parse packet: 247
+19:47:56:397	24dc	ETH: job is the same
+19:47:56:397	24dc	new buf size: 0
+19:47:57:476	24dc	got 248 bytes
+19:47:57:476	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x1a36368dee97dfda4b93dd6fdc73300a7c6fb9446921cba6160c7a489e6bc600","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55e"]}
+
+19:47:57:476	24dc	parse packet: 247
+19:47:57:476	24dc	ETH: job changed
+19:47:57:476	24dc	new buf size: 0
+19:47:57:491	24dc	ETH: 01/13/18-19:47:57 - New job from us1.ethermine.org:4444
+19:47:57:491	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:47:57:491	24dc	ETH - Total Speed: 25.336 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+19:47:57:491	24dc	ETH: GPU0 25.336 Mh/s
+19:47:58:023	24dc	got 248 bytes
+19:47:58:023	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0xacd21adc0c44db4951ffd3890dd0b4d24fbcc207c649509f4f64728cd8294260","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55e"]}
+
+19:47:58:023	24dc	parse packet: 247
+19:47:58:023	24dc	ETH: job changed
+19:47:58:023	24dc	new buf size: 0
+19:47:58:038	24dc	ETH: 01/13/18-19:47:58 - New job from us1.ethermine.org:4444
+19:47:58:038	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:47:58:038	24dc	ETH - Total Speed: 25.444 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+19:47:58:038	24dc	ETH: GPU0 25.444 Mh/s
+19:48:03:961	1a24	GPU0 t=54C fan=54%
+19:48:03:961	1a24	em hbt: 0, fm hbt: 31, 
+19:48:03:961	1a24	watchdog - thread 0 (gpu0), hb time 188
+19:48:03:961	1a24	watchdog - thread 1 (gpu0), hb time 94
+19:48:06:368	24dc	ETH: checking pool connection...
+19:48:06:368	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:48:06:414	24dc	got 248 bytes
+19:48:06:414	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0xacd21adc0c44db4951ffd3890dd0b4d24fbcc207c649509f4f64728cd8294260","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55e"]}
+
+19:48:06:414	24dc	parse packet: 247
+19:48:06:414	24dc	ETH: job is the same
+19:48:06:414	24dc	new buf size: 0
+19:48:08:946	24dc	got 248 bytes
+19:48:08:946	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x045878413eca6f1da3d3d07f819efb2feb18f4ceb3efdffcae1bc4ef63495ca4","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55f"]}
+
+19:48:08:946	24dc	parse packet: 247
+19:48:08:946	24dc	ETH: job changed
+19:48:08:946	24dc	new buf size: 0
+19:48:08:946	24dc	ETH: 01/13/18-19:48:08 - New job from us1.ethermine.org:4444
+19:48:08:962	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:48:08:962	24dc	ETH - Total Speed: 25.428 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+19:48:08:962	24dc	ETH: GPU0 25.428 Mh/s
+19:48:16:135	24dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1829802", "0x000000000000000000000000000000000000000000000000000000000e468ed4"]}
+
+19:48:16:276	24dc	got 39 bytes
+19:48:16:276	24dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:48:16:276	24dc	parse packet: 38
+19:48:16:276	24dc	new buf size: 0
+19:48:16:385	24dc	ETH: checking pool connection...
+19:48:16:385	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:48:16:713	24dc	got 248 bytes
+19:48:16:713	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x045878413eca6f1da3d3d07f819efb2feb18f4ceb3efdffcae1bc4ef63495ca4","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55f"]}
+
+19:48:16:713	24dc	parse packet: 247
+19:48:16:713	24dc	ETH: job is the same
+19:48:16:713	24dc	new buf size: 0
+19:48:26:402	24dc	ETH: checking pool connection...
+19:48:26:402	24dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:48:26:465	24dc	got 248 bytes
+19:48:26:465	24dc	buf: {"id":3,"jsonrpc":"2.0","result":["0x045878413eca6f1da3d3d07f819efb2feb18f4ceb3efdffcae1bc4ef63495ca4","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad55f"]}
+
+19:48:26:465	24dc	parse packet: 247
+19:48:26:465	24dc	ETH: job is the same
+19:48:26:465	24dc	new buf size: 0
+19:48:29:090	24dc	got 248 bytes
+19:48:29:090	24dc	buf: {"id":0,"jsonrpc":"2.0","result":["0x1f39f9c2c3734be6af432405a636e0420a7f300a0fdb842a953a72b0f2320116","0xec6e8e0d8056cf9eb61046eaeb754b8e71f48e10a86c61f4d287b4ac5244653f","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x4ad560"]}
+
+19:48:29:090	24dc	parse packet: 247
+19:48:29:090	24dc	ETH: job changed
+19:48:29:106	24dc	new buf size: 0
+19:48:29:106	24dc	ETH: 01/13/18-19:48:29 - New job from us1.ethermine.org:4444
+19:48:29:106	24dc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 163(2.27GB)
+19:48:29:121	24dc	ETH - Total Speed: 25.046 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+19:48:29:121	24dc	ETH: GPU0 25.046 Mh/s

@@ -1,0 +1,2 @@
+ccminer.exe --algo=scrypt:11 -o 127.0.0.1:42070 -t 1 -u mymog745LF84Nub8zSsw8rDKPbJgCzv7eZ -p testpass --no-longpoll --no-getwork --no-stratum --coinbase-addr=mymog745LF84Nub8zSsw8rDKPbJgCzv7eZ -listen
+pause

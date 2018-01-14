@@ -1,0 +1,1 @@
+ccminer.exe -a lyra2v2 -o stratum+tcp://lyra2rev2.eu.nicehash.com:3347 -u 14vZ4DHDzhttzKyNAmLzpRq6VLmCGb16vX -p x
